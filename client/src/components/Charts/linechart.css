@@ -1,0 +1,10 @@
+.lineContainer:hover .lineItem {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  .lineContainer .lineItem{
+    width: 28rem;
+    height: 18rem;
+    
+  }
+  

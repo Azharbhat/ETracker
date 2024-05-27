@@ -1,0 +1,42 @@
+.top{
+    background-color: #263238;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    height: 50vh;
+}
+.right{
+    background-color: #ECEFF1;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset 1px 1px 19px rgb(114, 105, 105);
+
+ 
+}
+.inputtt{
+    height: 3rem;
+    width: 80%;
+  
+    font-size: 1rem;
+    box-shadow: 5px 5px 1px rgba(40, 82, 1, 0.8);
+    border: none;
+}
+.btn{
+    width: 15%;
+    height: 3.5rem;
+}
+.left{
+    box-shadow:inset 1px 1px 19px rgb(114, 105, 105);
+    padding-left: 1rem;
+    width: 50%;
+    height: 80vh;
+}
+.llink:hover{
+   color: white;
+}

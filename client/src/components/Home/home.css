@@ -1,0 +1,90 @@
+.hContainer {
+   width: 100%;
+   height: 90vh;
+   background-color: rgb(202, 205, 202);
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-auto-rows: auto;
+   grid-gap: 1rem;
+   padding: 1rem;
+   overflow: auto; /* Add this line for scrolling */
+}
+
+.hContainer-item1{
+    grid-row: span 2;
+    grid-column: span 5;
+    border-radius: 2rem;
+
+ }
+ .hContainer-item2{
+    grid-column: span 4;
+    grid-row: span 2;
+
+    background-color:#9E9E9E;
+    border:2px solid #004D40;
+    border-radius: 1rem;
+    overflow: auto;
+    
+     
+ }
+ .hContainer-item2::-webkit-scrollbar {
+   width: 0.5em; /* Set a small width */
+ }
+ .hContainer-item2::-webkit-scrollbar {
+   background-color: transparent;
+ }
+.hContainer-item3{
+    flex-grow: 1;
+    grid-row: span 2;
+    grid-column: span 1;
+    background-color:#9E9E9E;
+    border:2px solid #004D40;
+    border-radius: 1rem;
+}
+.hContainer-item4{
+   background-color:#9E9E9E;
+    border:2px solid #004D40;
+    border-radius: 1rem;
+   grid-row: span 1;
+   grid-column: span 2;
+    
+}
+.hContainer-item5{
+   background-color:#9E9E9E;
+   border:2px solid #004D40;
+   border-radius: 1rem;
+     grid-column: span 2;
+     grid-row: span 2;
+ }.hContainer-item6{
+  
+    grid-column: span 4; 
+ }
+ .hContainer-item7{
+   background-color:#9E9E9E;
+    border:2px solid #004D40;
+    border-radius: 1rem;
+    grid-column: span 2; 
+    text-align: center;
+ }
+ input{
+    width: 95%;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+ }
+ .data{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
+
+ }
+ .checkbox-container{
+   height: 1rem;
+ }
+ .checkbox-item{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  
+ }

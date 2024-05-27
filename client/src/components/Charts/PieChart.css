@@ -1,0 +1,10 @@
+/* PieChart.css */
+
+.pie-chart-container:hover .piechart {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  .pie-chart-container .piechart{
+    width: 28rem;
+    height: 18rem;
+  }
